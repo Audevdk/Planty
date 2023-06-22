@@ -5,3 +5,6 @@
   Template: blankslate
   Version: 0.1.0 
   */
+  body {
+    color: red;
+  }
