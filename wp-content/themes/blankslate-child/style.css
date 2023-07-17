@@ -5,6 +5,137 @@
   Template: blankslate
   Version: 0.1.0 
   */
+
   body {
-    color: red;
-  }
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "syne";
+    }
+
+ #nousrencontrer {
+  
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ }
+
+ #nousrencontrer .wpcf7-form-control-wrap {
+  border-radius: 7px;
+  background: #FFF;
+
+  margin-bottom: 10px;
+  border: 0px;
+}
+
+#commander {
+  font-family: "syne";
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+
+}
+
+#commander h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+#envoyer{
+  display: flex;
+  justify-content: center;
+}
+
+input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number{
+  border-radius: 7px;
+  width: 380px;
+  height: 50px;
+ border: none;
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+.wpcf7-form-control.wpcf7-textarea{
+  border-radius: 7px;
+  width: 380px;
+  border: none;
+  margin-top: 15px;
+}
+
+figcaption.widget-image-caption.wp-caption-text {
+  position: absolute;
+  left: 25%;
+  top: 50% !important;
+}
+
+.selecteur {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  gap: 15px
+}
+.plus , .moins{
+  border-radius: 0px 5px 5px 0px;
+ background: #DC9F96;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ width: 31px;
+ height: 28px ;
+ color: #FFF;
+ justify-content: center;
+
+}
+input {
+  fill: #FFF;
+  align-content: center;
+  width: 51px;
+  height: 56px;
+  border-radius: 5px 0px 0px 5px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  border: none;
+}
+
+.ok{
+border-radius: 5px;
+background: #E0B9B4;
+display: flex;
+width: 100px;
+height: 56px;
+padding: 9px 0px 10px 0px;
+justify-content: center;
+align-items: center;
+color:#FFF
+}
+.qty{
+  display: flex;
+  flex-direction: row;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit{
+  margin: auto;
+  margin-top: 15px;
+}
+.wpcf7-submit {
+  border-radius: 10px !important;
+  background: #E0B9B4;
+  display: flex;
+  width: 198px;
+  height: 55px;
+  padding: 9px 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 0px;
+  color: #FFF;
+  text-align: center;
+  font-family: Syne;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+}
