@@ -75,10 +75,10 @@ figcaption.widget-image-caption.wp-caption-text {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-  gap: 15px
+  gap: 25px
 }
 .plus , .moins{
-  border-radius: 0px 5px 5px 0px;
+
  background: #DC9F96;
  align-items: center;
  display: flex;
@@ -88,6 +88,13 @@ figcaption.widget-image-caption.wp-caption-text {
  color: #FFF;
  justify-content: center;
 
+}
+.plus{
+  border-radius: 0px 5px 0px 0px;
+}
+.moins{
+  border-radius: 0px 0px 5px 0px;
+  border-top: #FFF solid 2px;
 }
 input {
   fill: #FFF;
