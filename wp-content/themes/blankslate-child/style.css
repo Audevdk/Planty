@@ -127,7 +127,12 @@ color:#FFF
 input.wpcf7-form-control.has-spinner.wpcf7-submit{
   margin: auto;
   margin-top: 15px;
+  cursor: pointer;
 }
+input.wpcf7-form-control.has-spinner.wpcf7-submit:hover{
+  background-color: #D2776A;
+}
+
 .wpcf7-submit {
   border-radius: 10px !important;
   background: #E0B9B4;
@@ -147,3 +152,20 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit{
   font-weight: 400;
   line-height: 37px;
 }
+
+/* média queries */ 
+@media (max-width: 992px) {
+
+  input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number{
+    width: 300px;
+    height: 55px;
+  }
+  .wpcf7-form-control.wpcf7-textarea  {
+    width: 300px;
+  }
+}
+ @media (max-width: 420px){
+  #commander{
+    flex-direction: column;
+  }
+ }
